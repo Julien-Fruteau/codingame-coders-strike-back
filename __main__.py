@@ -5,7 +5,23 @@ import math
 # the standard input according to the problem statement.
 
 has_boost = True
+radius_checkpoint = 600
+start_decelerate_distance = 1500
 
+# thrust est une fonction variable de la distance au checkpoint de l'angle d'attaque
+# thrust diminue lorsque la distance est < à une certaine distance du checkpoint
+# thrust
+# 100                                  x      x
+#                         x
+#                    x
+#                 x
+#               x
+# 50
+#             x
+#
+#
+#            x
+# 0         500          1000        1500                : distance
 
 
 # game loop
